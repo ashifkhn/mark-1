@@ -16,6 +16,14 @@ function play(question,answer){
         console.log("Your score is :",score)
     }
 }
+const highScore=[{
+    name:'Ashif',
+    score:'5'
+},{
+    name:'faiz',
+    score:'4'
+}
+]
 
 var ashifQuestion=[{
     question:"Do you know Ashif?",
@@ -43,3 +51,13 @@ for (i=0;i<ashifQuestion.length;i++){
     play(questionCount.question,questionCount.answer)
 }
 console.log("Your total score is: ",score)
+
+console.log("Check out the high scores, if you should be there send me a screenshot and I'll update it:")
+
+for (i=0;i<highScore.length;i++){
+    var highscoreName=highScore[i].name
+    var highScored=highScore[i].score
+    console.log(highscoreName,highScored)
+}
+
+

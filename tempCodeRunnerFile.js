@@ -1,0 +1,1 @@
+    console.log("Check out the high scores, if you should be there ping me and I'll update it:",highscoreName,highScored)
